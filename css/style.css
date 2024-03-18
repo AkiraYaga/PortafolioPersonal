@@ -1,0 +1,189 @@
+* {
+ font-size: 100%;
+ font-family: "RocknRoll One", sans-serif;
+}
+
+header{
+	background-color: #AA77D2;
+	text-align: center;
+}
+
+header img{
+	width: 70px;
+	padding: 10px 0;
+}
+
+footer{
+	background-color: #787676;
+	text-align: center;
+}
+
+footer img{
+	width: 50px;
+	padding: 10px 0;
+}
+.content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+	text-align: center;
+	margin-top: 15%;
+}
+
+#bienvenida img {
+max-width: 70%;
+height: auto;
+margin-left: 12%;
+align-content: center;
+margin-bottom: 25px;
+	margin-top: 80px;
+}
+
+#bienvenida h1{
+	font-weight: bold;
+	font-size: 60px;
+	
+}
+
+#bienvenida p{
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.btn-dark {
+  background-color: #FFFFFF;
+  border: 2px solid #FF0000;
+  border-radius: 60px !important;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+.btn-dark:hover{
+  background-color: #D14D4D;
+  border: 2px solid #FF0000;
+  border-radius: 40px !important;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 30px;
+  transition: font-size 0.5s;
+}
+
+#bienvenida{
+	background-image: url("../img/patron_arc.png");
+	background-position: center;
+    background-size: cover;
+	background-color: #D9D9D9;
+	padding-bottom: 30px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.programas-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.programas-section h1,
+.programas-section h2 {
+  text-align: center;
+	color: #ffffff;
+	margin: 30px;
+}
+
+#programas {
+	background-color: #F99826;
+	padding: 30px 0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#carrousel {
+	background-color: #F54E4E;
+	background-image: url("../img/patron_arc.png");
+	background-position: center;
+    background-size: cover;
+	padding: 30px 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#carrousel h1{
+	color: #FFFFFF;
+	margin-top: 10px
+}
+
+#carrousel .carrousel-inner {
+  height: 744px;
+  width: 1723px;
+  margin: 0 auto; 
+}
+
+#carrousel .carrousel-item {
+  height: 744px;
+  width: 1723px;
+}
+
+#carrousel .carrousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.forms{
+   
+    border-radius: 10px;
+    padding: 40px 25px;
+	background-color: #AA77D2;
+}
+
+.form-control{
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+
+.form-control::placeholder{
+    color: #8870AA;
+}
+
+.enviar-btn {
+    width: 100%;
+    background-color: #8870AA;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enviar-btn:hover {
+    background-color: #6E4BA0;
+}
+
+.form{
+    padding-top: 4%;
+}
+
+#form {
+	padding-bottom: 40px;
+	background-image: url("../img/patron_arc.png");
+	background-position: center;
+    background-size: cover;
+	background-color: #888888;
+}
+
+#form h2{
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+}
+.rocknroll-one-regular {
+  font-family: "RocknRoll One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
