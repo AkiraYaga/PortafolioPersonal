@@ -187,3 +187,8 @@ margin-bottom: 25px;
   font-weight: 400;
   font-style: normal;
 }
+
+#mc_embed_signup{background:#fff;
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  width: 600px;}
